@@ -1,4 +1,4 @@
-const url1 = "https://api.hgbrasil.com/weather?format=json-cors&woeid=455819"
+const url1 = "https://api.hgbrasil.com/weather?format=json-cors&woeid=455819&key=3b7f073a"
 
 function getUrl(url1) {
     let request = new XMLHttpRequest()
