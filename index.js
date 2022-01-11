@@ -53,24 +53,3 @@ function main() {
 }
 
 main()
-
-
-// function adicionarTela() {
-//     console.log(tempo)
-//     console.log(tempoJson)
-//     console.log(tempoJson2.results.city_name)
-//     // // console.log(tempoJson.temp)
-//     // // console.log(tempoJson.date)
-
-//     // let corpo = document.createElement("div")
-//     // let cidade = document.createElement("p")
-//     // let descricao = document.createElement("p")
-
-//     // // // cidade.innerHTML = tempoJson.temp
-//     // // // descricao.innerHTML = tempoJson.date
-
-//     // // corpo.appendChild(cidade)
-//     // // corpo.appendChild(descricao)
-
-//     // return corpo
-// }
