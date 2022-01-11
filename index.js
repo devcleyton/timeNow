@@ -1,14 +1,9 @@
 //WOEID CIDADES
-let woeid_caldas = 456912
-let woeid_brasilia = 455819
-
-let cors = "format=json-cors&"
 let url1 = "https://api.hgbrasil.com/weather?format=json-cors&woeid=455819"
 let url2 = "https://api.hgbrasil.com/weather?format=json-cors&woeid=455819"
 
 function get1(url1) {
     let request = new XMLHttpRequest()
-    let json
     request.open("GET", url1, false)
     request.send()
     return request.responseText
